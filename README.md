@@ -4,7 +4,7 @@ So I made a Powershell Script that changes a Windows shortcut .ico every second 
 
 To use this script:
 
--Change the file paths in vscode.ps1 and Setup.ps1:
+-Change the file paths to your file paths in vscode.ps1 and Setup.ps1:
 
 vscode.ps1:
 
@@ -19,3 +19,9 @@ while ($sw.elapsed -lt $timeout){
   start-sleep -seconds 1
 }
 
+-Copy the code from Setup.ps1 and place it in your Powershell.
+-Hit enter
+-Enter Y to accept the run
+
+
+Any questions? Tweet me: @jonahkalkman
